@@ -47,7 +47,7 @@ const HotAnime = () => {
 
   const isEmptyAnimePage = !animePage || !animePage.media || animePage.media.length === 0;
 
-  if(isEmptyAnimePage) return null;
+  if(isEmptyAnimePage) return <p>Loading.....</p>;
 
   return (
     <HotAnimeContainer>
