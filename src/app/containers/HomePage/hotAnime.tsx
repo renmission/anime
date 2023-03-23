@@ -10,6 +10,7 @@ const HotAnimeContainer = styled.div`
     height: 100%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 `;
 
 const AnimeItemContainer = styled.div`
